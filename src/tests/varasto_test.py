@@ -73,3 +73,4 @@ class TestVarasto(unittest.TestCase):
         self.assertEqual(str(self.varasto), "saldo = 6, vielä tilaa 4")
 
    # Varasto-luokan yksikkötestit
+   # Testikattavuuden tarkistus
