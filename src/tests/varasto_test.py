@@ -71,3 +71,5 @@ class TestVarasto(unittest.TestCase):
     def test_varaston_merkkijono(self):
         self.varasto.lisaa_varastoon(6)
         self.assertEqual(str(self.varasto), "saldo = 6, vielä tilaa 4")
+
+   # Varasto-luokan yksikkötestit
